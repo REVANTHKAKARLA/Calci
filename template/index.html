@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluculator</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="first">
+        <h1>Simple Caluculator</h1>
+        <form action="" method="post">
+            <input type="number" name="num1" placeholder="Enter num1" required>
+            <select name="opr">
+                <option value="" disabled selected>Select</option>
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="mul">x</option>
+                <option value="div">/</option>
+            </select>
+            <input type="number" name="num2" placeholder="Enter num2" required>
+            <button type="submit">Caluculate</button>
+        </form>
+    </div>
+    <div class="output-div">
+        {{output}}
+    </div>
+</body>
+</html>

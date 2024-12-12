@@ -1,0 +1,53 @@
+.first{
+    float: left;
+    width: 50%;
+    background-color: blue;
+    margin: 5% 0% 0% 25%;
+
+}
+.first h1{
+    text-align: center;
+    font-size: 45px;
+}
+.first input,.first select{
+    float: left;
+    width: 25%;
+    font-size: 20px;
+    margin: 0% 0% 4% 5%;
+    padding: 0.5% 0% 0.5% 0%;
+}
+.first button{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin: 0% 0% 4% 33%;
+}
+.output-div{
+    float: left;
+    width: 30%;
+    margin: 4% 0% 0% 35%;
+    /* border: 4px solid black; */
+    text-align: center;
+    font-size: 30px;
+}
+.login-div{
+    float: left;
+    width: 30%;
+    background-color: blue;
+    margin: 5% 0% 0% 35%;
+    border: 2px solid black;
+
+}
+.login-div input{
+    float: left;
+    width: 30%;
+    font-size: 15px;
+    margin: 4% 0% 4% 12%;
+    padding: 0.5% 0% 0.5% 0%;
+}
+.login-div button{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin: 0% 0% 4% 33%;
+}
